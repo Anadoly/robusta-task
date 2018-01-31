@@ -7,7 +7,7 @@
     },
     {
       "content": "Post a new shot to Dribbble",
-      "done": false,
+      "done": true,
       "id": 2
     },
     {
@@ -24,6 +24,11 @@
       "content": "Open photoshop",
       "done": false,
       "id": 5
+    },
+    {
+      "content": "Visit my parents",
+      "done": false,
+      "id": 6
     }
   ]
 }
