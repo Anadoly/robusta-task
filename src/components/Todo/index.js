@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Checkbox, Icon, Button } from 'antd';
+import { Checkbox, Icon } from 'antd';
 import 'antd/lib/checkbox/style/index.css';
 import 'antd/lib/icon/style/css.js';
 import 'antd/lib/button/style/index.css';
