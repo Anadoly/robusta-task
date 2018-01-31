@@ -1,0 +1,89 @@
+#add-todo {
+	background-color: white;
+	color: #877FA8;
+	border-color: white;
+	padding: 0px;
+	font-weight: bold;
+}
+.border1 {
+	display: inline-block;
+	border-left: 1px solid red;
+	padding-left: 2px;
+	text-align: left;
+	
+}
+.border2 {
+	border-left: 1px solid red;
+	/*border-left: 5px double red;*/
+}
+.add-div {
+	width: 265px;
+	padding-left: 10px;
+}
+#none {
+	width: 22px;
+	display: inline-block;
+	padding-right:15px;
+	margin: 0px;
+}
+#none label {
+	display: none;
+}
+.add-todo {
+	border-bottom: 1px solid #877FA8;
+	display: inline-block;
+}
+.Todos {
+	padding: 10px;
+	display: inline-block;
+	border: 1px solid gray;
+	box-shadow: 8px 8px 6px -6px black;
+}
+.button-div {
+	width: 243px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.button-div button+button {
+	margin-left: 48px;
+
+}
+.span  i {	
+ transform: rotate(180deg);
+ margin-right: 2px;
+}
+.border3 {
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	height: 2px;
+	width: 310px;
+	margin: 1px auto;
+}
+.border4 {
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	height: 2px;
+	width: 307px;
+    margin: 1px auto;
+
+}
+.border5 {
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	height: 2px;
+	width: 303px;
+	margin: 1px auto;
+}
+.border6 {
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+	height: 2px;
+	width: 298px;
+    margin: 1px auto;
+
+
+}
