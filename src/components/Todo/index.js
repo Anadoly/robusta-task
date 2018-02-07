@@ -7,19 +7,12 @@ import './style.css';
 
 export default class Todo extends Component {
     render(){
-        const {todo, handleChange} = this.props;
+        const {todo, handleChecked} = this.props;
         return (
             <div>
-                {
-                   // todo.done === false?
-                   //  <Checkbox checked={todo.done} onChange={() => {handleChange(todo.id)}}/>
-                   //  :
-                   //  <Checkbox defaultChecked={true} disabled />
-                    
-                }
                 <div className="border" >
                     <div id="checkbox">
-                        <Checkbox checked={todo.done} onChange={() => {handleChange(todo.id)}}/>
+                        <Checkbox checked={todo.done} onChange={() => {handleChecked(todo.id)}}/>
                     </div>
                     <div className="border1">
                         <div className="border2">
@@ -29,8 +22,7 @@ export default class Todo extends Component {
                                 <Icon type="delete" className="delete" onClick={this.props.delete} />
                         </div>
                     </div>
-                </div>
-                   
+                </div>                   
             </div>
         )
     }

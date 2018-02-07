@@ -7,13 +7,8 @@
     },
     {
       "content": "Post a new shot to Dribbble",
-      "done": true,
-      "id": 2
-    },
-    {
-      "content": "Give away some PSDs",
       "done": false,
-      "id": 3
+      "id": 2
     },
     {
       "content": "Finish client work",
@@ -29,6 +24,16 @@
       "content": "Visit my parents",
       "done": false,
       "id": 6
+    },
+    {
+      "content": "GO to Mall",
+      "done": false,
+      "id": 7
+    },
+    {
+      "content": "Ahmed",
+      "done": false,
+      "id": 8
     }
   ]
 }
